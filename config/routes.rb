@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :students, only: :index
-  resources :posts, only: :show
+  resources :students, only: :show
 end
